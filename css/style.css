@@ -1,0 +1,47 @@
+* {
+    font-size: 18px;
+}
+
+header {
+    background-color: #161D30;
+}
+
+.infos {
+    height: 67px;
+}
+
+.test {
+    padding-left: 44px;
+}
+
+.fa-envelope,
+.fa-phone {
+    height: 21px;
+    color: #FFAA04;
+    padding-right: 4px;
+    padding-top: 6px;
+}
+
+.fa-envelope {
+    width: 18px;
+}
+
+.fa-phone {
+    width: 15px;
+}
+
+.enveloppe {
+    padding-right: 60px;
+    color: white;
+    text-decoration: none;
+}
+
+.phone {
+    padding-right: 35px;
+    color: white;
+    text-decoration: none;
+}
+.rowbar{
+    background-color: #00000090;
+    height: 109px;
+}
