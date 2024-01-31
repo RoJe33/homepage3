@@ -76,7 +76,6 @@ header {
     background-color: white;
     margin-top: 226px;
     border-radius: 0px 100px 0px 0px;
-    height: 2000px;
 }
 .consultant{
     height: 142px;
@@ -134,4 +133,65 @@ header {
     border-radius: 0px 30px 0px 0px;
     position: relative;
     top: 60px;
+}
+
+.blackBG{
+    background-color: #000;
+    border-radius: 0px 100px 0px 0px;
+    padding-bottom: 30px;
+}
+
+.cardWhite{
+    top: 10rem;
+    padding: 2rem;
+    border-radius: 70px 0px 0px 0px;
+}
+.quote{
+    font-size: 27px;
+    color: #666;
+}
+.headTitle{
+    font-size: 16px;
+}
+.imgBG{
+    background-image: linear-gradient(rgba(22,29,48,0.9), rgba(22,29,48,0.9)),url(../images/map.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 80vh;
+}
+.request{
+    padding-top: 10vh;
+}
+
+.form{
+    background-color: white;
+    border-radius: 0px 50px 0px 0px;
+    padding: 30px;
+    margin-left: 10vw;
+}
+.textareaNo{
+    resize: none;
+}
+.freeQuote{
+    font-size: 60px;
+}
+.phoneNumber{
+    font-size: 36px;
+    color: #FFAA04;
+}
+.phoneBigger{
+    width: 29px;
+    height: 41px;
+}
+.overlay-content {
+    text-align: center;
+    position: relative;
+}
+.overlay-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
