@@ -76,7 +76,7 @@ header {
     background-color: white;
     margin-top: 226px;
     border-radius: 0px 100px 0px 0px;
-    height: 1000px;
+    height: 2000px;
 }
 .consultant{
     height: 142px;
@@ -88,4 +88,50 @@ header {
 .opti{
     font-size: 36px;
     padding-top: 256px;
+}
+.imgRadius{
+    border-radius: 300px 0px 0px 0px;
+    padding-left: 50px;
+}
+.about{
+    color: #FFAA04;
+    font-size: 21px;
+}
+.texte{
+    font-size: 16px;
+}
+.fa-earth-americas, .fa-chart-line{
+    color: #189FF9;
+}
+.help{
+    font-size: 40px;
+}
+.fa-magnifying-glass-dollar, .fa-lightbulb, .fa-user-tie, .fa-comment-dollar{
+    width: 70px;
+    height: 70px;
+}
+.textCard{
+    font-size: 21px;
+}
+.cardRadius{
+    border-radius: 0px 30px 0px 0px;
+}
+
+.greyBG{
+    background-color: #F4F4F4;
+    bottom: 80px;
+    border-radius: 100px 0px 0px 0px;
+    padding-top: 200px;
+    padding-bottom: 150px;
+}
+.fa-circle-check{
+    color: #189FF9;
+}
+.cardLeftRadius{
+    border-radius: 0px 0px 0px 30px;
+}
+.cardRightRadius{
+    border-radius: 0px 30px 0px 0px;
+    position: relative;
+    top: 60px;
 }
