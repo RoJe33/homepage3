@@ -189,6 +189,7 @@ header {
     text-align: center;
     position: relative;
 }
+
 .overlay-text {
     position: absolute;
     top: 50%;
@@ -199,8 +200,17 @@ header {
     color: #FFAA04;
 }
 .blocArticles{
-    border-bottom: solid;
-    border-color: #FFAA04;
+    position:relative;
+}
+.blocArticles::after{
+    content: "";
+    background: #FFAA04;
+    position: absolute;
+    bottom: 0;
+    left: 1;
+    height: 1px;
+    width: 92%;
+
 }
 .padBot{
     padding-bottom: 15vh;
@@ -234,4 +244,13 @@ header {
 }
 .allRights{
     background-color: #131721;
+}
+
+@media screen and (max-width: 576px){
+    *{
+        /* overflow-x: hidden;  */
+    }
+    .imgBG{
+        padding-top: 550vh;
+    }
 }
